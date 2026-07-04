@@ -1,21 +1,17 @@
 # 🎓 College Event Registration Portal
 
-A web-based College Event Registration Portal developed using **HTML, CSS, JavaScript, PHP, and MySQL**. This application allows students to register, log in, enroll in college events, download registration slips, and enables administrators to manage registrations efficiently.
+A web-based Event Registration Portal developed using HTML, CSS, JavaScript, PHP, and MySQL. The system allows students to register, log in, participate in technical events, and download their registration slip. It also provides an admin dashboard to manage registrations.
 
 ---
 
 ## 🚀 Features
 
 - Student Registration
-- Student Login & Logout
-- Secure Session Management
-- View Available Events
-- Register for Events
-- Student Dashboard
-- Download Registration Slip (Printable PDF)
+- Student Login
+- Event Registration
+- Dashboard
+- Registration Slip Download
 - Admin Dashboard
-- View Registered Students
-- Responsive User Interface
 - MySQL Database Integration
 
 ---
@@ -28,95 +24,57 @@ A web-based College Event Registration Portal developed using **HTML, CSS, JavaS
 - PHP
 - MySQL
 - WAMP Server
-- Git
-- GitHub
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-```
-Event-Registration-Portal/
-│
-├── backend/
-│   ├── db.php
-│   ├── login.php
-│   ├── logout.php
-│   ├── register.php
-│   ├── register_event.php
-│   └── session.php
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   ├── script.js
-│   ├── login.js
-│   ├── register.js
-│   └── admin.js
-│
-├── images/
-│
-├── database/
-│   └── event_registration.sql
-│
-├── index.html
-├── events.html
-├── register.html
-├── login.html
-├── dashboard.php
-├── admin.php
-├── download_slip.php
-└── README.md
-```
+backend/
+css/
+database/
+diagrams/
+docs/
+images/
+js/
+screenshots/
 
 ---
 
-## 📸 Project Screenshots
+## 📸 Screenshots
 
-- Home Page
-- Events Page
-- Login Page
-- Student Dashboard
-- Registration Slip
-- Admin Dashboard
+### Home Page
+![Home](screenshots/home.png)
 
-(Screenshots are available in the `screenshots` folder.)
+### Events Page
+![Events](screenshots/events.png)
+
+### Registration Page
+![Register](screenshots/register.png)
+
+### Student Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Registration Slip
+![Registration Slip](screenshots/registration_slip.png)
+
+### Database
+![Database](screenshots/database.png)
 
 ---
 
-## 💾 Database
+## 🗄 Database
 
-Database file:
+Import the SQL file located in:
 
-```
 database/event_registration.sql
-```
 
-Import this file into MySQL before running the project.
-
----
-
-## ▶️ How to Run
-
-1. Install WAMP Server.
-2. Copy the project into the `www` folder.
-3. Start Apache and MySQL.
-4. Import `event_registration.sql` into phpMyAdmin.
-5. Open:
-
-```
-http://localhost/Event-Registration-Portal/
-```
+using phpMyAdmin.
 
 ---
 
-## 👩‍💻 Developed By
+## 👩‍💻 Author
 
 **Tamizhini G**
 
----
-
-## 📄 License
-
-This project was developed for academic and learning purposes.
+GitHub:
+https://github.com/tamizhinigopal-tech
