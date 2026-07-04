@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | College Event Registration Portal</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <h2>🎓 College Event Portal</h2>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</nav>
+
+<section>
+
+    <h2>Student Login</h2>
+
+    <form action="backend/login.php" method="POST">
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Enter Email"
+            required>
+
+        <input
+            type="password"
+            name="password"
+            placeholder="Enter Password"
+            required>
+
+        <div style="display:flex;justify-content:space-between;align-items:center;margin:15px 0;">
+
+            <label>
+                <input type="checkbox">
+                Remember Me
+            </label>
+
+            <a href="#" style="text-decoration:none;color:#2563eb;">
+                Forgot Password?
+            </a>
+
+        </div>
+
+        <button type="submit">
+            Login
+        </button>
+
+    </form>
+
+    <p style="text-align:center;margin-top:20px;">
+        Don't have an account?
+
+        <a href="register.html">
+            Register Here
+        </a>
+    </p>
+
+</section>
+
+<footer>
+    <p>© 2026 College Event Registration Portal</p>
+</footer>
+
+</body>
+</html>
